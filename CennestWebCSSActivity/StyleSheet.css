@@ -1,0 +1,84 @@
+﻿* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px
+}
+body {
+    display: grid;
+    grid-template-rows: 25% 55% 15%;
+    grid-row-gap: 10px;
+    background-color: #666666;
+}
+.header {
+    display: grid;
+    margin-top: 2vh;
+    align-content: center;
+    grid-template-columns: 25% 75%;
+    grid-row-gap: 10px;
+}
+.logo{
+    border: solid;
+    text-align: center;
+}
+.header-img{
+    border: solid;
+    grid-column-end: span 2;
+    text-align: center;
+}
+.nav {
+    grid-column-start: 1;
+    grid-column-end: span 3;
+    display: grid;
+    align-content: center;
+    position: center;
+    background-color: #CCCCCC;
+    grid-template-columns: auto auto auto auto;
+}
+.nav > div {
+    align-self: center;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+.menu {
+    align-self: center;
+    display: inline-block;
+}
+    .menu a:hover {
+        background-color: #99000a;
+    }
+.section {
+    margin-top: 10px;
+    display: block;
+}
+.section1 {
+    margin: inherit;
+    float: left;
+    display: block;
+    width: 74%;
+    height: 55vh;
+    border: solid;
+}
+.section2 {
+    margin: inherit;
+    float: left;
+    display: grid;
+    width: 25%;
+    height: 55vh;
+    border: solid;
+    border-left: none;
+    grid-template-rows: 15% 25% 25% 35%;
+    align-content: center;
+}
+    .section2 .login{
+        border-bottom:solid;
+}
+    .section2 .username {
+        border-bottom: solid;
+    }
+    .section2 .password {
+        border-bottom: solid;
+    }
+.footer {
+    margin-top: 10px;
+    border: solid;
+}
