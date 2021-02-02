@@ -29,7 +29,6 @@
     width: 20%;
     display: grid;
     background-color: #CCCCCC;
-    /*grid-template-columns: auto auto auto auto;*/
 }
 
     .nav > div {
