@@ -5,13 +5,13 @@
 <html>
 <head runat="server">
     <title></title>
-    <link rel="stylesheet" href="Layout1.css" />
+    <link rel="stylesheet" href="Layout2.css" />
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
 <body style="background-color: #666666">
     <form id="form1" runat="server">
-    <div class="header">
+    <header class="header">
         <div class="logo">
             <p>Logo Image</p>
         </div>
@@ -25,14 +25,14 @@
             <div class="menu contact-us"><a href="Contact.aspx">Contact Us</a></div>
             <div class="menu feedback"><a href="Feedback.aspx">Feedback</a></div>
         </div>
-    </div>
+    </header>
         <div>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
         </div>
-    <div class="footer">
+    <footer class="footer">
         <p>This is the footer</p>
-    </div>
+    </footer>
     </form>
 </body>
 </html>

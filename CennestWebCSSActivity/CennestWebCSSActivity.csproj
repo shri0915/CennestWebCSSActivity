@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="About.aspx" />
     <Content Include="Contact.aspx" />
+    <Content Include="Exercise.html" />
     <Content Include="Feedback.aspx" />
     <Content Include="Home.aspx" />
     <Content Include="Layout2.css" />
