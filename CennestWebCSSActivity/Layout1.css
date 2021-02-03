@@ -16,7 +16,7 @@
 .header-img{
     border: solid;
     border-left: none;
-    grid-column-end: span 2;
+    grid-column-end: span 1;
     text-align: center;
 }
 .nav {

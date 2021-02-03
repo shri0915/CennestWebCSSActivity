@@ -28,6 +28,7 @@
     margin-top: 1vh;
     float: left;
     width: 20%;
+    height: 50vh;
     display: grid;
     background-color: #CCCCCC;
 }
@@ -61,7 +62,7 @@
 
 .section2 {
     float: left;
-    width: 100%;
+    width: 80%;
     display: block;
 }
 
