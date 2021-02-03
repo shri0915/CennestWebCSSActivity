@@ -19,13 +19,13 @@
             <p>Header Image</p>
             <p>Name of the site</p>
         </div>
+    </header>
         <div class="nav">
             <div class="menu home"><a href="Home.aspx">Home</a></div>
             <div class="menu about"><a href="About.aspx">About</a></div>
             <div class="menu contact-us"><a href="Contact.aspx">Contact Us</a></div>
             <div class="menu feedback"><a href="Feedback.aspx">Feedback</a></div>
         </div>
-    </header>
         <div>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>

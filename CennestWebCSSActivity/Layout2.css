@@ -24,7 +24,8 @@
 }
 
 .nav {
-    border-right:solid;
+    overflow: hidden;
+    margin-top: 1vh;
     float: left;
     width: 20%;
     display: grid;
@@ -47,13 +48,14 @@
 .section {
     margin-top: 1vh;
     border: solid;
-    margin-bottom:2vh;
+    margin-bottom: 2vh;
     height: 50vh;
 }
 
 .section1 {
     float: left;
-    width: 100%;
+    width: 80%;
+    height: 30%;
     border-bottom: solid;
 }
 
