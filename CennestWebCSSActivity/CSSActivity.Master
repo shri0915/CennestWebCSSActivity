@@ -5,7 +5,7 @@
 <html>
 <head runat="server">
     <title></title>
-    <link rel="stylesheet" href="Layout2.css" />
+    <link rel="stylesheet" href="Layout1.css" />
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
